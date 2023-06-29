@@ -12,6 +12,49 @@
     align-items: center;
 }
 
+.containerFavs {
+    text-align: center;    
+}
+
+.containerFavs h3{
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.containerFavs a{
+    text-decoration: none;
+    color: rgb(98, 74, 238);
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 1.2rem;
+}
+
+.containerFavs a:hover{
+    color: rgb(78, 163, 184);
+    font-size: 1.3rem;
+}
+
+.container .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grilla-contenedor {
+    position: relative;
+}
+
+.loading {
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 700;
+    color: dimgray;
+    width: 95vw;
+    height: 20vh;
+}
+
 button.primary {
     cursor: pointer;
     padding: 10px 20px;

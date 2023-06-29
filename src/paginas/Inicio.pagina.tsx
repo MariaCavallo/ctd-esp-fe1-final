@@ -3,6 +3,7 @@ import GrillaPersonajes from "../componentes/personajes/grilla-personajes.compon
 import Paginacion from "../componentes/paginacion/paginacion.componente";
 import { useAppDispatch, useAppSelector } from "../redux/hooks";
 import { resetFilter } from "../redux/reducers/charactersReducer";
+import "../App.css"
 
 /**
  * ## Componente Pagina Inicio
@@ -33,7 +34,7 @@ const PaginaInicio = () => {
             <Filtros />
             <Paginacion />
             <div className="grilla-contenedor">
-                {loading && characters.length > 0 && (<div>Loading...</div>)}
+                {loading && characters.length > 0 && (<div className="loading">Loading...</div>)}
                 <GrillaPersonajes characters={characters}/>
             </div>
             <Paginacion />
