@@ -6,3 +6,7 @@
   width: 35px;
   height: 35px; 
 }
+
+.boton-favorito img:hover{
+  transform: scale(1.2);
+}
